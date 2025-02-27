@@ -38,4 +38,4 @@ To compare two groups, select them in the left window and click “Combine Analy
 1.	Overline presents the same trends for both comparison groups.
 2.	Underline presents the opposite trends for both comparison groups.
 3.	Users can export the table to a file for further analysis.
-*In the output file of combine analysis, the double underline represents the same trend for both comparison.
+*In the output file of combine analysis, the double underline represents the same trend for both comparisons.
