@@ -1,0 +1,22 @@
+##TITLE= Audit trail, TopSpin 4.3.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= rg232
+$$ C:/Users/rg232/OneDrive - Mass General Brigham/Ella's folder/Cheng Lab/Projects/LC AD (Zuzanna)/NMR Data/NMR Data/Feb012023_HRMAS_LuCa_AD/12000/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-02-01 09:55:18.320 -0500>,<chenggp>,<14t.nmr.mgh.harvard.edu>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2023-02-01 09:02:06.032 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       FB 52 90 D0 73 12 F2 77 84 43 02 D2 41 65 C8 63
+       data hash MD5: 32K
+       7A E5 8A CF B9 90 29 2E E0 E8 04 BD B2 D6 40 17>)
+(   2,<2025-06-04T11:52:06.927-0400>,<PARTNERS\rg232>,<W0286250>,<dirdata>,<TopSpin 4.3.0>,
+      <wrpa from 1 12 "Feb012023_HRMAS_LuCa_AD" "C:/Users/rg232/OneDrive - Mass General Brigham/Ella's folder/Cheng Lab/Projects/LC AD (Zuzanna)/NMR Data/NMR Data"
+       data hash MD5: 32K
+       7A E5 8A CF B9 90 29 2E E0 E8 04 BD B2 D6 40 17>)
+##END=
+
+$$ hash MD5
+$$ FD 21 A1 DD F1 6F 19 A6 27 C0 F8 DC 04 70 A1 5A

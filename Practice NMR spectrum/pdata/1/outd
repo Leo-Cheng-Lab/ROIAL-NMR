@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.3.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= rg232
+$$ 2025-06-04 11:52:06.959 -0400  PARTNERS\rg232@W0286250
+$$ C:/Users/rg232/OneDrive - Mass General Brigham/Ella's folder/Cheng Lab/Projects/LC AD (Zuzanna)/NMR Data/NMR Data/Feb012023_HRMAS_LuCa_AD/12000/pdata/1/outd
+$$ process C:\Bruker\TopSpin4.3.0\prog\mod\dirdata.exe
+##$CURPLOT= <>
+##$CURPRIN= <dconpeaks.txt>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_X+nopp.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=
