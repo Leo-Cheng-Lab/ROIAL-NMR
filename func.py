@@ -562,7 +562,8 @@ def UI_search():
     '''
     identify potential metabolites from the imput_data based on their ppm peaks
     '''
-    define_region(covered_region)
+    if imp_data.shape[0]>1:
+        define_region(covered_region)
     low_lim = []
     upp_lim = []
     for i in range(0, imp_data.shape[0]):
@@ -655,7 +656,7 @@ def UI_search():
             '''
             match ratio select standard
             '''
-            if fraction >= 0.50 and conc_gory != "<5 uM":  # the match ratio should be 50% or greater
+            if ((fraction >= 0.50 and imp_data.shape[0] > 1) or (imp_data.shape[0] == 1)) and conc_gory != "<5 uM":  # the match ratio should be 50% or greater
                 if len(set(list(uq_cps_dict2.values())[i][1])) == 1 and set(list(uq_cps_dict2.values())[i][1]) == {'-'}:
                     trend_str = "decrease"
                 if len(set(list(uq_cps_dict2.values())[i][1])) == 1 and set(list(uq_cps_dict2.values())[i][1]) == {'+'}:
@@ -886,7 +887,11 @@ else:
     path = os.getcwd() + "/" + filename
     df = pd.read_excel(path)
     abbreviation_table = np.asarray(df)
-    abbreviation_table = abbreviation_table[:, :2]
+    if abbreviation_table.shape[1] >= 2:
+        mask = abbreviation_table[:, 1] != 'nan'
+        abbreviation_table = abbreviation_table[mask]  # remove the empty line
+    else:
+        abbreviation_table = np.array([["1","2"]])
 
 # define which region is analysed
 # covered_region = input(
