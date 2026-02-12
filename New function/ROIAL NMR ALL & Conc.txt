@@ -1,0 +1,13 @@
+This code operates independently of the graphical user interface (GUI) and is designed to run as a standalone program.
+
+This code outputs all metabolites, regardless of their match ratio. It does not apply any filtering threshold based on the match ratio value.
+
+The third output option specifically generates a comprehensive list of all detected metabolites, including:
+
+Their corresponding ppm values
+
+Their match ratios
+
+And a ranking based on their reported concentration levels in HMDB (Human Metabolome Database) samples
+
+In this third output mode, metabolites are sorted according to their HMDB concentration levels (from high to low), allowing users to prioritize metabolites that are typically present at higher biological concentrations.
