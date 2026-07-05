@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 13	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= mk1162
+$$ 2023-02-14 16:45:08.758 -0500  PARTNERS\mk1162@W0217724
+$$ Z:/NMRData/2023NMRData2023/NMRDataFeb2023/Feb012023_HRMAS_LuCa_AD/12/pdata/1/curdat2
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\dataserver.exe
+##$DATPATH2= <Z:/NMRData/2023NMRData2023/NMRDataFeb2023>
+##$DU2= <>
+##$EXPNO2= 12
+##$NAME2= <Feb012023_HRMAS_LuCa_AD>
+##$PROCNO2= 111
+##$TYPE= <>
+##$USER2= <>
+##END=
